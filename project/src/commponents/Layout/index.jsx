@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-import Sidebar from '../Sidebar';
+import Sidebar from '../Tidebar';
 /*this is error that has been fixed*/
 import './index.scss'
 const Layout = () =>{
