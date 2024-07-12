@@ -1,4 +1,5 @@
-import Sidebar from '../Sidebar/index';
+import Sidebar from '../Sidebar';
+/*this is error that has been fixed*/
 import './index.scss'
 const Layout = () =>{
     return (
