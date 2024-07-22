@@ -89,10 +89,15 @@
         content: 'CONTACT';
       }
     }
-
-    a.portfolio-link {
+    a.skills-link {
       &:after {
-        content: 'PORTFOLIO';
+        content: 'SKILLS';
+      }
+    }
+
+    a.projects-link {
+      &:after {
+        content: 'MY WORK';
       }
     }
 
