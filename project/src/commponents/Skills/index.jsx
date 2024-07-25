@@ -1,13 +1,14 @@
-import "./index.scss"
+import TextSection from './TextSection'
+import "./index.scss";
 
-const Skills = ()=>{
-    return(
+const Skills = () => {
+
+  return (
         <div className="container skills-page">
-            <div className="text-zone">
-                <h1>Skills</h1>
-            </div>
-        </div>  
-    )
-}
+            <TextSection />
+            
+        </div>
+    );
+};
 
 export default Skills;
