@@ -18,16 +18,9 @@ const About = () =>{
                     About
                 </h1>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium cum repudiandae 
-                    ducimus qui consequuntur. Asperiores ipsam at error cum ipsum facilis consequatur doloremque aliquid voluptatem, beatae animi eveniet dolorum ducimus.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium cum repudiandae 
-                    ducimus qui consequuntur. Asperiores ipsam at error cum ipsum facilis consequatur doloremque aliquid voluptatem, beatae animi eveniet dolorum ducimus.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium cum repudiandae 
-                    ducimus qui consequuntur. Asperiores ipsam at error cum ipsum facilis consequatur doloremque aliquid voluptatem, beatae animi eveniet dolorum ducimus.
+                Hi, my name is John MIchael Cabrera, a passionate aspiring Software Engineer. What motivates me is the creative aspect and problem solving that's involved with working on projects. There's a feeling that you get when fishing a project. A sense of excitement knowing that you achieved something that not just anybody can do. I recently  graduated with a Bachelor's degree in Computer Science from lehman college
+                    where I developed the tools needed to work on projects. In a field that's ever evolving I love to learn new things
+
                 </p>
             </div>
             <div className="stage-cube-cont">

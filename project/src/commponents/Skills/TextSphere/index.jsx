@@ -9,7 +9,7 @@ const Sphere = ({ radius = 15, textArray, mouseX, mouseY, isHovered }) => {
   const [cameraPosition, setCameraPosition] = useState([0, 25, 40]);
 
   const baseRotationSpeed = 0.005; // Base rotation speed
-  const hoverSpeedFactor = 0.00002; // Adjust this factor to control the speed when hovered
+  const hoverSpeedFactor = 0.00003; // Adjust this factor to control the speed when hovered
 
    // Update camera position for billboarding
    useFrame(({ camera }) => {

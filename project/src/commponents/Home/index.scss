@@ -1,4 +1,11 @@
 .home-page{
+
+    .content-zone {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
     .text-zone{
         position: absolute;
         left: 10%;
@@ -6,9 +13,17 @@
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
+        flex: 1;
     }
+    
+    .logo-zone {
+        flex: 1;
+        text-align: right;
+        margin-right: 200px;
+      }
+
     h1{
-        color: #fff;
+        color: #f1eabe ;
         font-size: 53px;        
         margin: 0;
         font-family: 'Coolvetica';
@@ -17,7 +32,7 @@
         &::before{
             content: '<h1>';
             font-family: 'La Belle Aurore';
-            color: #ffd700;
+            color: #e2a12e;
             font-size: 18px;
             position: absolute;
             margin-top: -40px;
@@ -28,7 +43,7 @@
         &::after{
             content: '</h1>';
             font-family: 'La Belle Aurore';
-            color: #ffd700;
+            color: #e2a12e;
             font-size: 18px;
             position: absolute;
             margin-top: 10px;
@@ -47,9 +62,9 @@
     }
 
     h2{
-        color: #ffd700;
+        color: #fbc808;
         margin-top: 20px;
-        font-size: 11px;
+        font-size: 17px;
         font-family: 'sans-serif';
         font-weight: 400;
         letter-spacing: 3px;
