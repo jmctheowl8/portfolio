@@ -18,7 +18,7 @@ const About = () =>{
                     About
                 </h1>
                 <p>
-                Hi, my name is John MIchael Cabrera, a passionate aspiring Software Engineer. What motivates me is the creative aspect and problem solving that's involved with working on projects. There's a feeling that you get when fishing a project. A sense of excitement knowing that you achieved something that not just anybody can do. I recently  graduated with a Bachelor's degree in Computer Science from lehman college
+                Hi, my name is John MIchael Cabrera, a passionate aspiring Software Engineer. What motivates me is the creativity and problem solving that's involved with working on projects. There's a feeling that you get when finishing a project. A sense of excitement knowing that you achieved something that not just anybody can do. I recently  graduated with a Bachelor's degree in Computer Science from lehman college
                     where I developed the tools needed to work on projects. In a field that's ever evolving I love to learn new things
 
                 </p>
