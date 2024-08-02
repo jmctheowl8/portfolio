@@ -4,24 +4,31 @@ import './index.scss'
 
 
 const Contact = () => {
-    const form = useRef()
+    const refForm = useRef()
+
+    emailjs.init({
+      publicKey: 'M3SC0U0lmsxT1_8Ma',
+    });
     
     const sendEmail = (e) => {
-        e.preventDefault()
-    
-        emailjs
-          .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
-          .then(
-            () => {
-              alert('Message successfully sent!')
-              window.location.reload(false)
-            },
-            () => {
-              alert('Failed to send the message, please try again')
-            }
-          )
-      }
+      e.preventDefault();
+      console.log('Form Data:', refForm.current);
 
+      emailjs
+        .sendForm( 'service_mjz2n3v','template_dbvtjde', refForm.current)
+        .then(
+          (response) => {
+            console.log('Email sent successfully:', response);
+            alert('Email sent successfully');
+            window.location.reload(false);
+          },
+          (error) => {
+            console.log('Error:', error);
+            alert('Error');
+          }
+        );
+    };
+    
     return (
         <>
           <div className="container contact-page">
@@ -35,7 +42,7 @@ const Contact = () => {
                 questions, don't hesitate to contact me using below form either.
               </p>
               <div className="contact-form">
-                <form ref={form} onSubmit={sendEmail}>
+                <form ref={refForm} onSubmit={sendEmail}>
                   <ul>
                     <li className="half">
                       <input placeholder="Name" type="text" name="name" required />
@@ -75,4 +82,4 @@ const Contact = () => {
       )
 }
 
-export default Contact
+export default Contact;
