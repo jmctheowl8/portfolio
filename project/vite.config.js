@@ -7,5 +7,9 @@ export default defineConfig({
     commonjsOptions: {
       include: [/node_modules/],
     },
+    rollupOptions: {
+      external: ['@react-three/fiber'], 
+      external: ['@react-three/drei'],// add this line
+    },
   },
 })
